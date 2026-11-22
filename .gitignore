@@ -219,5 +219,41 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
+
+
+
+# ==========================================
+# GOOGLE COLAB & JUPYTER
+# ==========================================
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ==========================================
+# MACHINE LEARNING EXPERIMENTS
+# ==========================================
+
+wandb/
+mlruns/
+lightning_logs/
+runs/
+
+# TensorBoard logs
+events.out.tfevents.*
+
+# Temporary model checkpoints
+*.ckpt
+*.checkpoint
+
+# ==========================================
+# LOCAL PROJECT FILES
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
 # Streamlit
 .streamlit/secrets.toml
